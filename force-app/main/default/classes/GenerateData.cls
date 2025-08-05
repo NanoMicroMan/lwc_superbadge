@@ -183,6 +183,7 @@ public class GenerateData {
     }
     
     private static void deleteOldData() {
+        
         DELETE [SELECT id FROM Opportunity];
         DELETE [SELECT id FROM Case];
         DELETE [SELECT id FROM Account];
@@ -190,6 +191,7 @@ public class GenerateData {
         DELETE [SELECT id FROM Boat__c];
         DELETE [SELECT id FROM BoatType__c];
         DELETE [SELECT id FROM BoatReview__c];
+        
     }
 
     private static void generateNewData()  {

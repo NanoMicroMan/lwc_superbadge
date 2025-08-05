@@ -46,3 +46,5 @@ config/
 package.json
 sfdx-project.json
 manifest/
+.sf/
+.sfdx/
